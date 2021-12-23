@@ -1,0 +1,89 @@
+.grid {
+  display: grid;
+  width: auto;
+  grid-template-columns: 217px 1fr;
+  border-bottom: white 5px solid;
+}
+body {
+  margin: 0%;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 300%;
+  margin: 0%;
+  border-bottom: white solid 5px;
+  padding: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  border-right: white solid 5px;
+  width: 196px;
+  margin: 0%;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 200%;
+  list-style: none;
+  padding-left: 8px;
+  text-align: center;
+}
+
+ul li {
+  border: white double 6px;
+  background-color: black;
+}
+
+.showImg {
+  display: flex;
+  justify-content: center;
+}
+
+.grid2 img {
+  display: block;
+  width: 300px;
+  height: 250px;
+  border: solid white 3px;
+  object-fit: cover;
+}
+
+.grid2 {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 8px;
+  column-gap: 0px;
+  text-align: center;
+  margin: 8px;
+}
+
+.gridPost img {
+  display: block;
+  width: 300px;
+  height: 250px;
+  border: solid white 3px;
+  object-fit: cover;
+}
+
+.gridPost {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 0px;
+  text-align: center;
+  margin: 8px;
+}
+
+.postImg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 8px;
+}
